@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 height = [3,0,2,0,4]
 n = len(height)
 #plot how the containers will look like
-X_axis = np.arange(n))
+X_axis = np.arange(n)
 plt.bar(X_axis,height,width=1)
 plt.show()
 
